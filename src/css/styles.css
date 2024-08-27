@@ -111,6 +111,8 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  margin: 0 auto 30px auto;
+  display: block;
 }
 .load-more-btn.is-hidden{
       visibility: hidden;
@@ -121,12 +123,6 @@ img {
 .load-more-btn:hover {
   background: #6c8cff;
 }
-
-.load-more-btn {
-  display: block;
-  margin: 0 auto;
-}
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
